@@ -12,9 +12,7 @@ public class MainJoptionPane {
             int opcao = Integer.parseInt(JOptionPane.showInputDialog("Digite:\n 1 para somar\n 2 para subtrair\n 3 para multiplicar\n 4 para dividir \n 5 para sair"));
             if (opcao == 5){
                 break;
-            }else if (opcao == 69){
-                JOptionPane.showMessageDialog(null, "Vitor é viado");
-                }
+            }
             else if (opcao < 1 || opcao > 4){
                 JOptionPane.showMessageDialog(null, "Valor Inválido\nDigite o valor entre 1 e 5");
                 continue;
